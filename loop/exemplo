@@ -1,0 +1,19 @@
+//while (enquanto)-loop condicional 
+
+let salario = 1000;
+
+while(salario< 5000){
+    salario+=100;
+
+    console.log("O salario ainda e R$ " + salario)
+}
+
+//Do While - loop condicional 
+
+let saldo = 1000;
+
+do{
+    console.log("Esse é o saldo:" + saldo);
+    saldo += 100
+    
+}while(saldo < 5000);
