@@ -8,7 +8,7 @@
 let numero = parseInt(prompt("Digite um numero e veja sua tabuada ate o 10"));
 
 if(!isNaN(numero)) {
-    for(let cont = 1; cont <=; cont++) {
+    for(let cont = 1; cont <= cont++){
         console.log(numero + "X" + cont + "=" + (numero * cont));
     }
 
