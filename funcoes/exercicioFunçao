@@ -1,0 +1,9 @@
+//Construir um menu que é possivel escolher um exercicio entre os anteriores, para ser executado
+//Faca com que o menu repita a execução
+//disponibilize as opcoes para o esuario
+//ate que seja digitado sair
+
+
+function (
+    
+)
