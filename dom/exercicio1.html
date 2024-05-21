@@ -1,0 +1,26 @@
+<!-- //1-Alterar o texto de um paragrafo ao clicar em um botao -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+</head>
+<body>
+    <!-- //id-identifica para o que serve a tag p// -->
+    <p id="meuParagrafo">Texto Original</p>
+
+    <button onclick="alterarTexto()">Alterar Texto</button>
+    <!-- //toda vez que houver um botao ou algo que faca algo, chamar uma funcao com parenteses -->
+
+    <script>
+        function alterarTexto(){
+            //Selecionar o paragrafo pelo ID
+            let paragrafo = document.getElementById("meuParagrafo")
+            //Alterar texto
+            paragrafo.innerText = "TextoAlterado"
+        }
+    </script>
+</body>
+</html>

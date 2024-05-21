@@ -22,4 +22,11 @@
 
 //2-Adicionar e remover itens de uma lista 
 
+
+
+
+
+
+
+
 //3-Fechar a pagina, voltar, mostrar sua localizacao
