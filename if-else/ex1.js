@@ -7,11 +7,11 @@
 
 //solicita ao usuario um nome de usuario 
 
-//let username = prompt("Digite um nome de usuário: ");
+let username = prompt("Digite um nome de usuário: ");
 
 //solicita ao usuario uma senha 
 
-//let senha = prompt("Digite a senha: ");
+let senha = prompt("Digite a senha: ");
 
 //verifique se o nome de usuario e "admin" e  a senha e "senha123"
 //CASO SIM -> Exiba a mensagem de login bem sucedida 
@@ -19,10 +19,10 @@
 
 //if-> condicional 
 
-//if (username == "admin" && senha == "senha123"){
-    //console.log("Login bem sucedido")
-//}else {
-    //console.log( "Voce nao tem permissao de acesso!")
-//}
+if (username == "admin" && senha == "senha123"){
+  console.log("Login bem sucedido")
+}else {
+    console.log( "Voce nao tem permissao de acesso!")
+}
 
 //Exiba uma mensagem indicando se o login foi bem-sucedido ou nao. 

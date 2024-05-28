@@ -8,10 +8,13 @@ let num2 = parseInt(prompt("digite o primeiro numero: "));
 let num3 = parseInt(prompt("digite o primeiro numero: "));
 
 if (num1 > num2 && num2 > num3) {
-    console.log ("Esta em ordem crescente")
+    console.log ("Está em ordem crescente")
 }
 
 else {
-    console.log ("Nao esta em ordem crescente")
+    console.log ("Não está em ordem crescente")
 }
 
+//Desafio
+//Informe se os números informado estão em 
+// ordem crescente / decrescente / não ordenado

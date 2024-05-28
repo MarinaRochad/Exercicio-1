@@ -1,6 +1,4 @@
 
-
-
 //Exercício 4: Notas escolares
 //Faça um programa que receba 4 notas de um aluno, 
 //calcule e imprima a média aritmética das notas
@@ -16,23 +14,35 @@ let nota3 = parseFloat(prompt ("Digite outra nota: "));
 let nota4 = parseFloat(prompt("Digite outra nota: "));
 
 
+
+
 //calcule e imprima a média aritmética das notas
-let media= (nota1+nota2+nota3+nota4) /4
-//toFixed(num) -> formatar o resultado de quantas casas decimais eu quero que apareçam 
-console.log ("A média do aluno é:" + media.toFixed(2))
+// A precedência de operadores em JavaScript é semelhante ao 
+// ensinado nas aulas de matemática na escola — 
+// Multiplicação e divisão são realizados primeiro, 
+// depois a adição e subtração
 
-if(media >= 7) {
-    console.log("Recuperação")
+// (a soma é sempre realizada da esquerda para a direita).
+let media = (nota1 + nota2 + nota3 + nota4) / 4;
+
+//https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
+//toFixed(num) -> formatar o resultado 
+//de quantas casas decimais eu quero que apareça
+console.log("A média do aluno é: " + media.toFixed(2));
+
+// APROVADO para média superior ou igual a 7,0 
+if(media >= 7){
+    console.log("APROVADO");
 }
 
-else if (media > 4 && media < 7) {
-    console.log ("Recuperação")
+// RECUPERAÇÃO para notas entre 5.0 e 7,0 
+else if(media < 7 && media >= 5){
+    console.log("RECUPERAÇÃO");
 }
 
-else if (media > 5) {
-    console.log ("Reprovado")
+// ou a mensagem de REPROVADO para média inferior a 5,0.
+else{
+    console.log("REPROVADO");
 }
-
-
 
 
