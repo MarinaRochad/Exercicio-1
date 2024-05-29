@@ -17,3 +17,22 @@ do{
     saldo += 100
     
 }while(saldo < 5000);
+
+//Array 
+let frutas = ["Banana", "Laranja", "Maça", "Pitaya", "Melancia", "Caju"];
+     
+// console.log(frutas[3]);
+
+//forEach => percorre uma lista
+// frutas.forEach(fruta => {
+//     console.log("A fruta é: " + fruta);
+// });
+
+//Percorrendo uma lista com for
+// .length => quantidade de elementos dentro de um array
+for(let indice = 0; indice < frutas.length; indice ++){
+    console.log(frutas[indice]);
+    if(frutas[indice] == "Pitaya"){
+        console.log("Eu gosto de " + frutas[indice]);
+    }
+}
